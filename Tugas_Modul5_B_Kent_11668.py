@@ -5,8 +5,7 @@ import os
 import pickle  
 
 # Set model directory and path
-model_directory = r'D:\Atma\Sem 5\Pembelajaran Mesin\P7\Tugas5_B_11668'
-model_path = os.path.join(model_directory, r'best_model.pkl')
+model_path = r'best_model.pkl'
 
 # Check if model exists
 if os.path.exists(model_path):
